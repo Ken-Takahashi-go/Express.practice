@@ -1,5 +1,5 @@
 const express = require("express");
-const todosRouter = require("./controllers/todos.js");
+const todosRouter = require("./routers/todos.js");
 const app = express();
 const PORT = 8080;
 
