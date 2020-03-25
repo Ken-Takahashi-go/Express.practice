@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,7 @@
   },
   "devDependencies": {
     "mocha": "^7.1.1",
+    "nodemon": "^2.0.2",
     "power-assert": "^1.6.1"
   }
 }
